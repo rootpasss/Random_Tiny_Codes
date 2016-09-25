@@ -78,7 +78,7 @@ public class Frame extends JFrame {
     } );
     getContentPane().add( horizontal  );
 
-    option = new JCheckBox( "Automated Rescaling" );
+    option = new JCheckBox( "Automated Scaling" );
     option.setBounds( 37, 265, 190, 25 );
     option.setForeground( new Color( 255, 245, 5 ) );
     option.addActionListener( event -> select() );
