@@ -134,10 +134,6 @@ public class Frame extends JFrame {
   }
 
   public void select() {
-    if( option.isSelected() ) {
-      T.autoScaling( true );
-    } else {
-      T.autoScaling( false );
-    }
+    T.autoScaling( option.isSelected() );
   }
 }
