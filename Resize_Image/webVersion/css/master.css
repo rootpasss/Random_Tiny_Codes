@@ -1,0 +1,64 @@
+/**
+* Engineered and developed by Jhonny Trejos Barrios.
+* Technology: Web (CSS).
+* Version: CSS3.
+* Development Environment: Sublime Text 3 [build 3126].
+* Date: 05/01/17, Time: 09:05:19.
+*
+* Additional Info.
+*
+* Source Code Target Or Details:
+*
+*              []
+*
+* Licenses: GNU GPL v3.0, Eclipse Public License 1.0, personal not for commercial purposes.
+* Developer Contact: jtrejosb@live.com || jtrejosb@gmail.com || jtrejosb@icloud.com
+* Mobile: --
+*/
+
+body {
+  background: #98FAC3;
+}
+
+.contentPane, input[type=range], .box, .optionGroup, .info {
+  position: absolute;
+}
+
+.contentPane {
+  width: 310px;
+  height: 310px;
+  background: #FA6399;
+}
+
+.horizontal {
+  top: 12px;
+  left: 12px;
+  width: 250px;
+}
+
+.vertical {
+  top: 30px;
+  left: -48px;
+  height: 220px;
+  -webkit-appearance: slider-vertical;
+}
+
+.box {
+  width: 0px;
+  height: 0px;
+  border: 1px solid #FC98A5;
+}
+
+.optionGroup {
+  top: 260px;
+  left: 12px;
+}
+
+.info {
+  padding-top: 2px;
+  padding-left: 3px;
+  right: 0px;
+  bottom: 0px;
+  min-width: 205px;
+  border: 2px solid #DD87CA;
+}
